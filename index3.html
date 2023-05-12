@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAPITRE 3 - TIC</title>
+    <link rel="stylesheet" type="text/css" href="./style3.css">
+    <link rel="shortcut icon" type="images/png" href="./images/icon.png">
+</head>
+<body>
+    <section class="title1">
+        <h1>Les composantes matérielles d'un réseau</h1>
+        <ul>
+            <li>
+                <div class="container">
+                    <div class="text1">
+                        <h2>Les cartes réseau</h2>
+                        <p>Les cartes réseau, ou cartes d'interface réseau (NIC), sont des  composants informatique qui permet à un ordinateur de se connecter à un réseau informatique, que ce soit Internet ou un réseau local. Elles sont installées à l'intérieur de l'ordinateur et connectées à une prise Ethernet ou Wi-Fi. Les cartes réseau jouent un rôle crucial dans la communication entre ordinateurs sur un réseau en permettant la transmission et la réception de données à l'aide de protocoles de communication tels que TCP/IP.</p>
+                    </div>
+                    <div class="img1">
+                        <img src="./images/carteReseau.jpg">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <div class="text1">
+                        <h2>Le Switch</h2>
+                        <p>Un commutateur, également appelé commutateur réseau, est un composant matériel qui permet de connecter plusieurs appareils tels que des ordinateurs, des imprimantes ou des serveurs sur un réseau local (LAN) et de les faire communiquer entre eux en utilisant des adresses MAC. Lorsqu'un appareil se connecte au switch, son adresse MAC est stockée dans une table de correspondance qui est utilisée pour envoyer les données uniquement à l'appareil destinataire plutôt qu'à tous les appareils du réseau. Les commutateurs existent en différentes tailles.</p>
+                    </div>
+                    <div class="img1">
+                        <img src="./images/switch.jpg">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <div class="text1">
+                        <h2>Le HUB</h2>
+                        <p>Un hub, également appelé concentrateur, est un composant matériel utilisé pour connecter plusieurs appareils sur un réseau local (LAN). Contrairement à un switch, le hub ne dispose pas de la fonctionnalité de table de correspondance pour envoyer les données uniquement à l'appareil destinataire. Cela signifie que lorsqu'un appareil envoie des données sur le réseau, tous les appareils connectés les reçoivent, même si l'appareil destinataire est différent. Les hubs ont été remplacés par des switches, plus efficaces pour la gestion du trafic réseau et la communication rapide et sécurisée entre les appareils connectés. Cependant, les hubs sont encore utilisés dans des applications spécifiques ou dans des petits réseaux où la complexité d'un switch n'est pas nécessaire.</p>
+                    </div>
+                    <div class="img1">
+                        <img src="./images/hub.jpg">
+                    </div>
+                </div>
+            </li>
+        </ul>    
+    </section>
+    <section class="title2">
+        <h1>Le modèle OSI</h1>
+        <div class="container">
+            <div class="text1">
+                <p>Le modèle OSI (Open Systems Interconnection) est un modèle de référence pour la conception et la mise en œuvre de réseaux informatiques, divisant les communications en sept couches distinctes. Chaque couche est responsable de fonctions spécifiques liées à la communication de données entre les appareils de réseau :</p>
+                <p>Les sept couches du modèle OSI sont :</p>
+                <ul>
+                    <li>La couche physique</li>
+                    <li>La couche liaison de données</li>
+                    <li>La couche réseau</li>
+                    <li>La couche transport</li>
+                    <li>La couche session</li>
+                    <li>La couche présentation</li>
+                    <li>La couche application</li>
+                </ul>
+            </div>
+            <div class="img1">
+                <img src="./images/osi.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="title3">
+        <h1>Le modèle TCP/IP</h1>
+        <div class="container">
+            <div class="text1">
+                <p>Le modèle TCP/IP est un modèle de référence pour les communications de réseau, utilisé pour la conception et la mise en œuvre des réseaux informatiques modernes. Contrairement au modèle OSI, qui divise les communications en sept couches distinctes, le modèle TCP/IP divise les communications en quatre couches principales :</p>
+                <ul>
+                    <li>La couche liaison de données</li>
+                    <li>La couche réseau</li>
+                    <li>La couche transport</li>
+                    <li>La couche application</li>
+                </ul>
+                <p>Le modèle TCP/IP est le modèle de référence pour les protocoles de communication de réseau les plus largement utilisés, telque IP/TCP/UDP...</p>
+            </div>
+            <div class="img1">
+                <img src="./images/tcp.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="title4">
+        <h1>L'adressage</h1>
+        <div class="container">
+            <div class="text1">
+                <p>Les communications dans un réseau obéissent à des règles :</p>
+                <ul>
+                    <li>Adressage</li>
+                    <li>Architexture</li>
+                    <li>Protocoles</li>
+                </ul>
+                <p style="font-size: 1.1em;color: saddlebrown;margin-bottom: 10px;text-decoration: underline;">C’est quoi un adressage IP ?</p>
+                <p>L'adressage IP (Internet Protocol) est un système  utilisé pour identifier chaque périphérique connecté à un réseau.Il y’a deux mode d’adressage IPV4 et IPV6 :</p>
+                <ul>
+                    <li><p><span style="color: saddlebrown;text-decoration: underline;">IPV4 </span>: Elle utilise une adresse IP de 32 bits, représentée sous forme de quatre octets décimaux séparés par des points.</p></li>
+                    <li><p><span style="color: saddlebrown;text-decoration: underline;">IPV6 </span>: Une adresse IPv6 est un identifiant unique de 128 bits, écrit en notation hexadécimale et composée de 8 groupes de 16 bits.</p></li>
+                </ul>
+            </div>
+            <div class="img1">
+                <img src="./images/ipv6.png">
+            </div>
+        </div>
+    </section>
+    <section class="title5">
+        <h1>L'adresse IPV4</h1>
+        <div class="container">
+            <div class="text1">
+                <p>
+                    Ce passage décrit la structure d'une adresse IPV4 et les différents types d'adresses qui existent dans le schéma d'adressage IPV4. qui sont divisés en quatre octets. La première partie de l'adresse représente le réseau, tandis que la seconde partie représente l'hôte. 
+                    Un réseau est reconnu lorsque la valeur des bits dans la partie réseau est la même. Le nombre de bits dans la partie hôte détermine le nombre de machines pouvant exister sur ce réseau.
+                    Il existe quatre types d'adresses IPV4 : adresse réseau, adresse de diffusion, adresse hôte et masque réseau. Une adresse réseau a tous les bits de la partie hôte définis sur 0, tandis qu'une adresse de diffusion a tous les bits de la partie hôte définis sur 1. Une adresse hôte est attribuée aux machines d'un réseau entre les adresses réseau et de diffusion. Un masque de réseau a tous les bits de la partie réseau mis à 1.
+                </p>
+            </div>
+            <div class="img1">
+                <img src="./images/ipv4.png">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

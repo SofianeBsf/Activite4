@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAPITRE 5 - TIC</title>
+    <link rel="stylesheet" type="text/css" href="./style5.css">
+    <link rel="shortcut icon" type="images/png" href="./images/icon.png">
+</head>
+<body>
+    <section class="title0">
+        <h1>À quoi sert concrètement un système de gestion de version ?</h1>
+        <div class="text1">
+            <p>Il aborde l'utilité d'un système de gestion de version, en mettant en évidence les défis rencontrés lors de la collaboration sur un projet et la nécessité d'avoir un historique des modifications. Il explique comment Git facilite la coordination du travail entre plusieurs personnes en conservant un historique des changements effectués sur les fichiers.</p>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>Les deux modèles des logiciels de gestion de version</h1>
+        <div class="text1">
+            <p>il poursuit en discutant des deux modèles de gestion de version : le modèle centralisé et le modèle décentralisé. Git est présenté comme un modèle décentralisé, offrant des avantages tels que la simplicité, la flexibilité du travail et la sécurité des données.</p>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>Qu’est-ce que GitHub ?</h1>
+        <div class="container">
+            <div class="text1">
+                <p>Git est un logiciel de gestion de version. Git va nous permettre d’enregistrer les différentes
+                    modifications effectuées sur un projet et de pouvoir retourner à une version précédente du
+                    projet. GitHub est un service en ligne qui permet d’héberger des dépôts ou repo Git. C’est le plus
+                    grand hébergeur de dépôts Git du monde.</p>
+            </div>
+            <div class="img1">
+                <img style="margin-left: 200px; margin-top: -50px;" src="./images/github-mark.png">
+            </div>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>Installation de Git</h1>
+        <div class="container">
+            <div class="text1">
+                <p>La façon la plus simple d’installer Git est de télécharger la dernière version sur le site
+                    officiel <a href="http://git-scm.com/downloads">ICI</a>, d’ouvrir le fichier téléchargé et de suivre les
+                    instructions à l’écran en laissant toutes les valeurs par défaut.</p>
+            </div>
+            <div class="img1">
+                <img style="width: 600px;height: 400px; margin-left: 50px; margin-top: -50px;" src="./images/instgithub.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>Paramétrage de Git</h1>
+        <div class="container">
+            <div class="text1">
+                <p>Le paramétrage de Git permet de configurer les préférences et le comportement de Git sur votre système. Il existe un paramétrage global pour tous les projets et un paramétrage local spécifique à chaque projet. Les configurations courantes incluent le nom d'utilisateur, l'adresse e-mail et d'autres options personnalisées. Le paramétrage de Git se fait à l'aide des commandes "git config --global" pour le paramétrage global et "git config" pour le paramétrage local.</p>
+            </div>
+            <div class="img1">
+                <img style="width: 600px;height: 300px; margin-left: 50px; margin-top: -50px;" src="./images/chap5parametrage.png">
+            </div>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>La gestion des informations selon Git</h1>
+        <div class="container">
+            <div class="text1">
+                <p>La façon dont Git gère les informations tel qu'Il utilise des instantanés pour enregistrer les changements, permet la création de branches pour travailler parallèlement sur différentes fonctionnalités, et offre des fonctionnalités avancées pour faciliter la collaboration et la gestion des versions du projet.</p>
+            </div>
+            <div class="img1">
+                <img style="width: 600px;height: 300px; margin-left: 50px; margin-top: -60px;" src="./images/chap5gestion.png">
+            </div>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>Les états des fichiers</h1>
+        <p>Git gère les fichiers dans trois principaux états : modifié, indexé et validé. Les modifications apportées aux fichiers sont d'abord marquées comme modifiées, puis sélectionnées pour l'indexation et enfin validées pour créer des instantanés permanents. La gestion des états des fichiers dans Git permet un suivi précis des modifications et facilite la collaboration et la récupération des versions antérieures.</p>
+    </section>
+    <section class="title0">
+        <h1>Les zones de travail</h1>
+        <div class="container">
+            <div class="text1">
+                <p>Les états de fichiers sont liés à des zones de travail dans Git. En fonction de son état, un fichier
+                    va pouvoir apparaitre dans telle ou telle zone de travail. Tout projet Git est composé de trois
+                    sections : le répertoire de travail (working tree), la zone d’index (staging area) et le répertoire
+                    Git (repository).
+                    Le répertoire de travail ou “working tree” correspond à une extraction unique (“checkout”)
+                    d’une version du projet. Les fichiers sont extraits de la base de données compressée située
+                    dans le répertoire Git et sont placés sur le disque afin qu’on puisse les utiliser ou les modifier.
+                    La zone d’index ou “staging area” correspond à un simple fichier, généralement situé dans le
+                    répertoire Git, qui stocke les informations concernant ce qui fera partie du prochain instantané
+                    ou du prochain “commit”.</p>
+            </div>
+            <div class="img1">
+                <img style="width: 600px;height: 400px; margin-left: 50px; margin-top: -50px;" src="./images/chap5zone.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="title0">
+        <h1>Créer un dépôt Git à partir d’un répertoire existant</h1>
+        <div class="container">
+            <div class="text1">
+                <p style="margin-bottom: 20px;">Pour créer un dépôt Git à partir d'un répertoire existant :</p>
+                <ol>
+                    <li>Assurez-vous d'avoir Git installé.</li>
+                    <li>Entrez dans le répertoire du projet dans le terminal.</li>
+                    <li>Utilisez `git init` pour initialiser le dépôt Git.</li>
+                    <li>Utilisez `git add` pour ajouter les fichiers au dépôt.</li>
+                    <li>Utilisez `git commit` pour valider les modifications avec un message de commit.</li>
+                    <li>Facultatif : configurez un dépôt distant et poussez vos commits vers ce dépôt.</li>
+                </ol>
+            </div>
+            <div class="img1">
+                <img style="width: 600px;height: 400px; margin-left: 50px;" src="./images/creergithub.jpg">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

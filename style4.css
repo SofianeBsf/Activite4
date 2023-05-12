@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body{
+  padding: 80px;
+}
+
+span{
+  color: saddlebrown;
+  font-weight: 500;
+}
+
+h1{
+  color: gray;
+  margin-bottom: 50px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+section{
+  margin-bottom: 80px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 2fr
+}
+
+.title1:nth-child(1) .container ul li .text1{
+  margin-left: 30px;
+}
+
+.title1:nth-child(4) ul{
+  margin-left: 30px;
+}
+
+.title1:nth-child(3) ul li .container .text1{
+  margin-left: 30px;
+}
+
+.title1 .container .text1 h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title1:nth-child(2) ul{
+  margin-left: 30px;
+}
