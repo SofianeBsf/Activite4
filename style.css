@@ -84,7 +84,7 @@ a {
   grid-template-rows: auto auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px){
   .module .titre h1 {
     font-size: 4em;
     margin-left: 0;
@@ -104,7 +104,7 @@ a {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px){
   .module .titre h1 {
     font-size: 4em;
     margin-left: 0;
@@ -124,7 +124,7 @@ a {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px){
   .module .titre h1 {
     font-size: 5em;
     margin-left: 25px;
