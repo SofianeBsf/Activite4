@@ -1,85 +1,85 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap);
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
 }
 
-body{
-    background-image: url(./images/home2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 70px;
-    color: rgb(255, 255, 255);
-    padding-bottom: -10px;
-    backdrop-filter: blur(5px);
+body {
+  background-image: url(./images/home2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5vw;
+  color: #fff;
+  backdrop-filter: blur(5px);
 }
 
-a{
-    text-decoration: none;
-    color: #000;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-.module{
-    padding: 100px;
-    margin-top: -110px;
+.module {
+  padding: 10vw;
+  margin-top: -11vw;
 }
 
-.module .titre h1{
-    font-size: 5em;
-    font-weight: 600;
-    margin-left: 25px;
+.module .titre h1 {
+  font-size: 5vw;
+  font-weight: 600;
+  margin-left: 2.5vw;
 }
 
-.module .paragraph{
-    padding: 0 30px;
+.module .paragraph {
+  padding: 0 3vw;
 }
 
-.module .paragraph p{
-    font-size: 1.3em;
+.module .paragraph p {
+  font-size: 1.3vw;
 }
 
-.module .paragraph p:nth-child(2){
-    margin-top: 20px;
+.module .paragraph p:nth-child(2) {
+  margin-top: 2vw;
 }
 
-.home .presentation{
-    margin-top: 100px;
+.home .presentation {
+  margin-top: 10vw;
 }
 
-.home .srcbtn{
-    margin-top: -60px;
-    max-height: 100%;
-    display: flex;
+.home .srcbtn {
+  margin-top: -6vw;
+  max-height: 100%;
+  display: flex;
 }
 
-.home .srcbtn .btn{
-    background-color: gray;
-    padding: 10px;
-    height: 45px;
-    width: 200px;
-    margin: 50px;
-    margin-top: -20px;
-    text-align: center;
-    justify-content: center;
-    transition: width .5s ease-in-out;
-    border-radius: 15px;
-    text-transform: uppercase;
+.home .srcbtn .btn {
+  background-color: gray;
+  padding: 1vw;
+  height: 5vw;
+  width: 20vw;
+  margin: 5vw;
+  margin-top: -2vw;
+  text-align: center;
+  justify-content: center;
+  transition: width .5s ease-in-out;
+  border-radius: 1.5vw;
+  text-transform: uppercase;
 }
 
-.home .srcbtn .btn:hover{
-    background-color: aliceblue;
-    width: 250px;
-    letter-spacing: 1px;
+.home .srcbtn .btn:hover {
+  background-color: aliceblue;
+  width: 25vw;
+  letter-spacing: 0.1vw;
 }
 
-.etudiants{
-    margin-left: 30px;
+.etudiants {
+  margin-left: 3vw;
 }
 
-.home .etudiants ul{
-    display: grid;
-    grid-template-columns: 272px 280px 250px 272px 240px;
-    grid-template-rows: 80px 50px;
+.home .etudiants ul {
+  display: grid;
+  grid-template-columns: 27.2vw 28vw 25vw 27.2vw 24vw;
+  grid-template-rows: 8vw 5vw;
 }
