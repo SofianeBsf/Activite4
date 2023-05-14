@@ -85,7 +85,6 @@ a {
 }
 
 @media (min-width: 576px) {
-  /* Small devices (landscape phones, 576px and up) */
   .module .titre h1 {
     font-size: 4em;
     margin-left: 0;
@@ -106,7 +105,6 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* Medium devices (tablets, 768px and up) */
   .module .titre h1 {
     font-size: 4em;
     margin-left: 0;
@@ -127,7 +125,6 @@ a {
 }
 
 @media (min-width: 992px) {
-  /* Large devices (desktops, 992px and up) */
   .module .titre h1 {
     font-size: 5em;
     margin-left: 25px;
@@ -144,5 +141,25 @@ a {
 
   .home .etudiants ul {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .module .titre h1 {
+    font-size: 6em;
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  .module .paragraph p {
+    font-size: 1.4em;
+  }
+
+  .module .paragraph p:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .home .etudiants ul {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
